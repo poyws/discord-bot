@@ -1,0 +1,20 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "A simple and fun Discord bot built with TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "discord.js": "^14.11.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4",
+    "ts-node": "^10.9.1"
+  },
+  "author": "Seu Nome",
+  "license": "MIT"
+}
